@@ -4,7 +4,7 @@
   <title><![CDATA[Morita Naoki]]></title>
   <link href="http://moritanaoki.org/atom.xml" rel="self"/>
   <link href="http://moritanaoki.org/"/>
-  <updated>2013-11-27T04:10:50+09:00</updated>
+  <updated>2013-11-27T04:24:29+09:00</updated>
   <id>http://moritanaoki.org/</id>
   <author>
     <name><![CDATA[Morita Naoki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octpress Customizing]]></title>
+    <link href="http://moritanaoki.org/blog/2013/11/27/octpress-customizing/"/>
+    <updated>2013-11-27T04:13:37+09:00</updated>
+    <id>http://moritanaoki.org/blog/2013/11/27/octpress-customizing</id>
+    <content type="html"><![CDATA[<p>Now I was customizing the Octopress. I&rsquo;m not accustomed to the css and a whole project design &ndash; I think it means I&rsquo;m new to the web site programming, because of that, I just rewrite and add in the theme&rsquo;s base css. I think there are better ways. SCCS???</p>
+
+<p>My choice is <a href="https://github.com/shashankmehta/greyshade">greyshade</a>. I think this choice is not bad, rather good. I can find many blogs using this theme. But almost of all I found out were customized version.</p>
+
+<!--more-->
+
+
+<p>I want to make a beautiful design blog. Ah, and I tried many themes I found in <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">erd Party Octopress Themes</a>. Try, change, and try again. After that, I found that my octopress repository was messed up&hellip;Ah. I deleted many files I thought not important, and copy the original part where I deleted files were.</p>
+
+<p>Ok, it&rsquo;s late at night in Japan. It&rsquo;s a second before morning. I&rsquo;ll have to sleep. Next time, Octopress!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Start blogging again]]></title>
