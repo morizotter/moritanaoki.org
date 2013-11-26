@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://morizotter.github.io/sitemap.xml 
