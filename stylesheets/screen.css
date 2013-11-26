@@ -1,22 +1,30 @@
 /*
-Syntax error: File to import not found or unreadable: base.
-              Load paths:
-                Sass::Globbing::Importer
-                /Users/MORITA_iMac/Desktop/octopress/sass
-                /Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets
-                /Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets
-                Compass::SpriteImporter
-        on line 3 of /Users/MORITA_iMac/Desktop/octopress/sass/screen.scss
+Syntax error: Invalid CSS after "-": expected number or function, was "@import "base/c..."
+        on line 1 of /Users/MORITA_iMac/Desktop/octopress/sass/_base.scss
+        from line 3 of /Users/MORITA_iMac/Desktop/octopress/sass/screen.scss
 
 1: /Users/MORITA_iMac/Desktop/octopress/sass/screen.scss
 
 Backtrace:
+/Users/MORITA_iMac/Desktop/octopress/sass/_base.scss:1
 /Users/MORITA_iMac/Desktop/octopress/sass/screen.scss:3
-/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/import_node.rb:45:in `import'
-/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/import_node.rb:28:in `imported_file'
-/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/import_node.rb:37:in `css_import?'
-/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:1148:in `expected'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:1084:in `expected'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:1066:in `expr!'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:922:in `term'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:897:in `expr'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:671:in `simple_selector_sequence'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:640:in `_selector'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:619:in `selector'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:603:in `selector_sequence'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:528:in `ruleset'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:553:in `block_child'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:543:in `block_contents'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:82:in `stylesheet'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:27:in `parse'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/engine.rb:342:in `_to_tree'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/engine.rb:274:in `to_tree'
+/Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
 /Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
 /Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -58,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: base.\A               Load paths:\A                 Sass::Globbing::Importer\A                 /Users/MORITA_iMac/Desktop/octopress/sass\A                 /Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/MORITA_iMac/.rbenv/versions/1.9.3-p385/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 3 of /Users/MORITA_iMac/Desktop/octopress/sass/screen.scss\A \A 1: /Users/MORITA_iMac/Desktop/octopress/sass/screen.scss"; }
+  content: "Syntax error: Invalid CSS after \"-\": expected number or function, was \"@import \"base/c...\"\A         on line 1 of /Users/MORITA_iMac/Desktop/octopress/sass/_base.scss\A         from line 3 of /Users/MORITA_iMac/Desktop/octopress/sass/screen.scss\A \A 1: /Users/MORITA_iMac/Desktop/octopress/sass/screen.scss"; }
