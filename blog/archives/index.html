@@ -9,8 +9,8 @@
   <meta name="author" content="Morita Naoki">
 
   
-  <meta name="description" content=" Blog Archive 2013 Start Blogging Again
-Nov 26 2013 Recent Posts Start Blogging Again ">
+  <meta name="description" content="Blog Archive 2013 Start Blogging Again
+Nov 26 2013 Recent Posts Start Blogging Again GitHub Repos Status updating... $(document).ready(function(){ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -32,6 +32,18 @@ Nov 26 2013 Recent Posts Start Blogging Again ">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
   
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33111846-4']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
 
 </head>
 
@@ -105,6 +117,33 @@ Nov 26 2013 Recent Posts Start Blogging Again ">
       </li>
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'morizotter',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 
