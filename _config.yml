@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://morizotter.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://moritanaoki.org
+title: Morita Naoki
+subtitle: I like programming!
+author: Morita Naoki
 simple_search: http://google.com/search
-description:
+description: "Hi, I am iOS developer living in Japan. I like travelling with the backpack. I started programming at 30 yrs-old. I like programming!"
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -69,7 +69,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: morizotter
 twitter_tweet_button: true
 
 # Google +1
@@ -90,11 +90,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: moritanaoki
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
