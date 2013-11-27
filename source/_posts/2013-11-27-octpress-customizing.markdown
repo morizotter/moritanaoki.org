@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Octpress Customizing"
+title: "Octopress Customizing"
 date: 2013-11-27 04:13:37 +0900
 comments: true
 categories: 
 ---
 
-Now I was customizing the Octopress. I'm not accustomed to the css and a whole project design - I think it means I'm new to the web site programming, because of that, I just rewrite and add in the theme's base css. I think there are better ways. SCCS???
+Now I was customizing the Octopress. I'm not accustomed to the css and a whole project design - I think it means I'm new to the web site programming, because of that, I just rewrite and add in the theme's base css. I think there are better ways. SCSS???
 
 My choice is [greyshade](https://github.com/shashankmehta/greyshade). I think this choice is not bad, rather good. I can find many blogs using this theme. But almost of all I found out were customized version.
 
