@@ -4,7 +4,7 @@
   <title><![CDATA[Morita Naoki]]></title>
   <link href="http://moritanaoki.org/atom.xml" rel="self"/>
   <link href="http://moritanaoki.org/"/>
-  <updated>2013-11-27T05:09:59+09:00</updated>
+  <updated>2013-11-27T23:40:56+09:00</updated>
   <id>http://moritanaoki.org/</id>
   <author>
     <name><![CDATA[Morita Naoki]]></name>
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Octpress Customizing]]></title>
+    <title type="html"><![CDATA[Octopress Customizing]]></title>
     <link href="http://moritanaoki.org/blog/2013/11/27/octpress-customizing/"/>
     <updated>2013-11-27T04:13:37+09:00</updated>
     <id>http://moritanaoki.org/blog/2013/11/27/octpress-customizing</id>
-    <content type="html"><![CDATA[<p>Now I was customizing the Octopress. I&rsquo;m not accustomed to the css and a whole project design &ndash; I think it means I&rsquo;m new to the web site programming, because of that, I just rewrite and add in the theme&rsquo;s base css. I think there are better ways. SCCS???</p>
+    <content type="html"><![CDATA[<p>Now I was customizing the Octopress. I&rsquo;m not accustomed to the css and a whole project design &ndash; I think it means I&rsquo;m new to the web site programming, because of that, I just rewrite and add in the theme&rsquo;s base css. I think there are better ways. SCSS???</p>
 
 <p>My choice is <a href="https://github.com/shashankmehta/greyshade">greyshade</a>. I think this choice is not bad, rather good. I can find many blogs using this theme. But almost of all I found out were customized version.</p>
 
