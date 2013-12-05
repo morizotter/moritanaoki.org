@@ -4,7 +4,7 @@
   <title><![CDATA[Morita Naoki]]></title>
   <link href="http://moritanaoki.org/atom.xml" rel="self"/>
   <link href="http://moritanaoki.org/"/>
-  <updated>2013-12-01T22:31:20+09:00</updated>
+  <updated>2013-12-06T01:35:41+09:00</updated>
   <id>http://moritanaoki.org/</id>
   <author>
     <name><![CDATA[Morita Naoki]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[TableView and Data]]></title>
+    <link href="http://moritanaoki.org/blog/2013/12/06/tableview-and-data/"/>
+    <updated>2013-12-06T01:32:18+09:00</updated>
+    <id>http://moritanaoki.org/blog/2013/12/06/tableview-and-data</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s not big issue. It&rsquo;s an uninteresting daily topic.</p>
+
+<p>How do you handle table view&rsquo;s data? Before, I handle it with NSArray or NSMutableArray in the UIViewController&rsquo;s subclass. At that time, I made the contens of the array in it. Messy&hellip; And then, I split data from ViewController, it was OK. But now, I make the data store class for handling the section and row data. The good points are,</p>
+
+<ol>
+<li>You can split model from view controller. ViewController becomes clean!</li>
+<li>You can easily make many kinds of cells based on the row data class&rsquo;s information.</li>
+<li>The data store class can cache the data.</li>
+</ol>
+
+
+<!-- more -->
+
+
+<p>But, I don&rsquo;t know more efficient way or pattern. If you know better idea. Please tell me!</p>
+
+<h2>Sample&rsquo;s explanation</h2>
+
+<p>This sample is using twitter timeline. So, first, please tap the upper-left buttn and select twitter account. And then, the timeline will show. It is possible to do pull-to-refresh.</p>
+
+<p>In this sample twitter is not important. I just needed a set of data and wanted to use a simple networking.</p>
+
+<ul>
+<li><a href="https://github.com/morizotter/TableViewAndData">morizotter/TableViewAndData</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[I won the prize of Qiita Hackason]]></title>
