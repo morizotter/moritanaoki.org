@@ -26,9 +26,8 @@
 
 .content-container {
   position: relative;
-  margin-top: 20px;
-  padding: 0px 20px 20px 20px;
-  text-align:center;
+  /* margin-top: 20px; */
+  /* padding: 0px 20px 20px 20px; */
 }
 
 .content-container > .content-background {
@@ -39,8 +38,8 @@
   height: 100%;
   z-index: -1;
   background-color: white;
-  opacity: 0.5;
-  padding: 10px;
+  opacity: 0.7;
+  /* padding: 10px; */
 }
 
 .content-container a {
@@ -51,23 +50,38 @@
   color: inherit;
 }
 
-.content-container > .word {
-  font-family: 'Lobster', cursive;
+.content-header {
+  text-align: center;
 }
 
-.content-container > .icon {
-  margin: 40px;
+.content-container > .content-header > .icon {
+  margin: 20px;
+  text-alitn: center;
 }
 
-.content-container > .name {}
+.content-container > .content-header > .name {}
 
-.content-container > .description {}
+.content-container > .content-header > .description {}
 
-.content-container > .link {
+.content-container > .content-header > .link {
   margin-top: 20px;
   font-size: 16px;
 }
 
-.content-container > .other {
+.content-container > .word {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
+.content-container > .content-body {
   margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+.content-container > .content-body > .title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
 }
