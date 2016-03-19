@@ -1,6 +1,6 @@
 .body {
   /*background-image: url(../images/background-photo.jpg);*/
-  background-color: rgb(231, 231, 231);
+  /*background-color: rgb(231, 231, 231);*/
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -29,7 +29,10 @@
   margin: 80px auto 20px auto;
   max-width: 600px;
   background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 3px;
+  border-radius: 38px;
+  border-color: #dddddd;
+  border-width: 1px;
+  border-style: dotted;;
 }
 
 .content-container a {
@@ -46,7 +49,7 @@
 }
 
 .content-left {
-  padding: 30px;
+  padding: 40px;
 }
 
 .content-header {
@@ -68,7 +71,7 @@
 }
 
 .content-right {
-  padding: 30px;
+  padding: 40px;
 }
 
 .content-right .link {
