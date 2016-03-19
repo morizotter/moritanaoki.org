@@ -16,7 +16,7 @@
 .full-screen-cover {
   background-color: black;
   z-index: -1;
-  opacity: 0.1;
+  opacity: 0.2;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -25,21 +25,11 @@
 }
 
 .content-container {
-  position: relative;
-  /* margin-top: 20px; */
-  /* padding: 0px 20px 20px 20px; */
-}
-
-.content-container > .content-background {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background-color: white;
-  opacity: 0.7;
-  /* padding: 10px; */
+  margin: 20px;
+  min-width: 280px;
+  max-width: 560px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
 }
 
 .content-container a {
@@ -50,38 +40,38 @@
   color: inherit;
 }
 
+.content-container h1 {
+  margin-top: 0px;
+}
+
+.content-left {
+  float: left;
+  width: 220px;
+  margin: 30px;
+}
+
 .content-header {
   text-align: center;
 }
 
-.content-container > .content-header > .icon {
+.content-header .icon {
   margin: 20px;
   text-alitn: center;
 }
 
-.content-container > .content-header > .name {}
-
-.content-container > .content-header > .description {}
-
-.content-container > .content-header > .link {
-  margin-top: 20px;
-  font-size: 16px;
+.content-body {
+  word-wrap: normal;
 }
 
-.content-container > .word {
-  font-family: 'Lobster', cursive;
-  text-align: center;
+.content-right {
+  float: left;
+  margin: 30px;
+  width: 220px;
+  height: 100%;
 }
 
-.content-container > .content-body {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin: 20px;
-}
-
-.content-container > .content-body > .title {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-family: 'Lobster', cursive;
-  text-align: center;
+.content-right .link {
+  font-size: 18px;
+  line-height: 2.0em;
+  text-align: left;
 }
