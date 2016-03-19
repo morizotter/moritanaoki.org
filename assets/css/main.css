@@ -1,6 +1,6 @@
 .body {
   /*background-image: url(../images/background-photo.jpg);*/
-  /*background-color: rgb(231, 231, 231);*/
+  background-color: rgb(252, 252, 252);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -30,9 +30,7 @@
   max-width: 600px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 38px;
-  border-color: #dddddd;
-  border-width: 1px;
-  border-style: dotted;;
+  border: 1px dotted #dddddd;
 }
 
 .content-container a {
