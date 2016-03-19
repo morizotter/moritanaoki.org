@@ -1,5 +1,6 @@
 .body {
-  background-image: url(../images/background-photo.jpg);
+  /*background-image: url(../images/background-photo.jpg);*/
+  background-color: rgb(231, 231, 231);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -9,11 +10,11 @@
 
 @media only screen and (max-width: 767px) {
   body {
-    background-image: url(..images/background-photo-mobile-devices.jpg);
+    /*background-image: url(..images/background-photo-mobile-devices.jpg);*/
   }
 }
 
-.full-screen-cover {
+/*.full-screen-cover {
   background-color: black;
   z-index: -1;
   opacity: 0.2;
@@ -22,7 +23,7 @@
   left: 0px;
   width: 100%;
   height: 100%;
-}
+}*/
 
 .content-container {
   margin: 80px auto 20px auto;
@@ -33,10 +34,11 @@
 
 .content-container a {
   color: inherit;
+  text-decoration: none;
 }
 
 .content-container a:hover {
-  color: inherit;
+  color: #aaaaaa;
 }
 
 .content-container h1 {
