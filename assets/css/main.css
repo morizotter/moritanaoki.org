@@ -53,6 +53,11 @@
   text-align: center;
 }
 
+.content-header .name {
+  font-family: 'Montez', cursive;
+  color: #555555;
+}
+
 .content-header .icon {
   margin: 20px;
   text-alitn: center;
